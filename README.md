@@ -22,4 +22,4 @@ If you use the Multiscale Atlas of Gene Expression for Integrative Cortical Cart
 [Transcriptional Cartography Integrates Multiscale Biology of the Human Cortex](https://www.biorxiv.org/content/10.1101/2022.06.13.495984v2)
 
 ## Contact
-If you have any questions or comments about the atlas or this repository, please contact us at [konrad.wagstyl@gmail.com]. We welcome feedback and suggestions for how to improve the project.
+If you have any questions or comments about the atlas or this repository, please contact us at [konrad.wagstyl@gmail.com](konrad.wagstyl@gmail.com. We welcome feedback and suggestions for how to improve the project.
