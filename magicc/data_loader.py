@@ -5,7 +5,6 @@ import nibabel as nb
 import pandas as pd
 import numpy as np
 import matplotlib_surface_plotting as msp
-import wget 
 
 class MagiccDataset():
     def __init__(
@@ -23,7 +22,9 @@ class MagiccDataset():
         #check if file exists
         if not os.path.isdir('magic_expreesion_data'):
             print('Downloading full dataset. This will take ~ 1 minute')   
-            wget.download(self.figshare)
+            subprocess.call(f'wget --content-disposition {self.figshare}',shell=True,
+                            stdout=subprocess.DEVNULL,
+                            stderr=subprocess.STDOUT)
             
             subprocess.call(f'unzip magicc.zip',shell=True)
         return
