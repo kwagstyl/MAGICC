@@ -10,7 +10,7 @@ Other fantastic AHBA resources are available including [abagen](https://abagen.r
 The full vertex-level dataset can be downloaded from figshare [link]. These data include processed gene expression data, as well as cortical surfaces for visualisation. The code includes scripts and pipelines used to process and integrate the data, as well as tools for visualizing and analyzing the results.
 
 ## Interactive Usage
-To take a look at your gene of interest, you can try [this interactive collaborative notebook]. The interface allows users to plot their gene and gradient of interest.
+To take a look at your gene of interest, you can try [this interactive collaborative notebook](https://colab.research.google.com/github/kwagstyl/MAGICC/blob/main/notebooks/gene2map.ipynb). The interface allows users to plot their gene and gradient of interest.
 
 ## Installation and Usage
 To download and analyse the data on your own computer, take a look at the notebooks capturing example analyses from our paper.
