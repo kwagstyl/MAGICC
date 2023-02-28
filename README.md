@@ -7,7 +7,7 @@ The atlas was generated using [the Allen Human Brain Atlas](https://human.brain-
 Other fantastic AHBA resources are available including [abagen](https://abagen.readthedocs.io/en/stable/) and [Gregor Gryglewski's atlas](http://www.meduniwien.ac.at/neuroimaging/mRNA.html)
 
 ## Data and Code
-The full vertex-level dataset can be downloaded from figshare [link]. These data include processed gene expression data, as well as cortical surfaces for visualisation. The code includes scripts and pipelines used to process and integrate the data, as well as tools for visualizing and analyzing the results.
+The full vertex-level dataset can be downloaded from figshare [link](https://figshare.com/ndownloader/files/39434188?private_link=82c8f6ebda38af670cd1). These data include processed gene expression data, as well as cortical surfaces for visualisation. The code includes scripts and pipelines used to process and integrate the data, as well as tools for visualizing and analyzing the results.
 
 ## Interactive Usage
 To take a look at your gene of interest, you can try [this interactive collaborative notebook](https://colab.research.google.com/github/kwagstyl/MAGICC/blob/main/notebooks/gene2map.ipynb). The interface allows users to plot their gene and gradient of interest.
