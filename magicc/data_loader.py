@@ -75,7 +75,7 @@ class MagiccDataset():
               mask=~self.cortex_mask,
               mask_colour=np.array([0,0,0,1]),
                   colorbar=True,cmap_label='Expression\ngradient (Z/mm)',
-                  title = gene_name+f' gradient'
+                  title = gene_name+f' expression\ngradient'
                  )
         return
     
