@@ -6,7 +6,7 @@ Welcome to the MAGICC! This repository contains the data and code used to visual
 The atlas was generated using [the Allen Human Brain Atlas](https://human.brain-map.org/). To create a dense transcriptomic atlas of the cortex, we used AHBA microarray measures of gene expression for 20,781 genes in each of 1304 cortical samples from six donor left cortical hemispheres. We extracted a model of each donor's cortical sheet by processing their [brain MRI scan] (https:10.1016/j.neuroimage.2017.12.060), and identified the nearest cortical vertex of each postmortem cortical sample in this sheet. For each gene, we then propagated measured expression values into neighboring vertices using nearest-neighbor interpolation followed by smoothing. Expression values were scaled across vertices and these vertex-level expression maps were averaged across donors to yield a single dense expression map (DEM) for each gene - which provided estimates of expression at ~ 30,000 vertices across the cortical sheet (e.g. DEM for PVALB). These fine-grained vertex-level expression measures also enabled us to estimate the orientation and magnitude of expression change for each gene at every vertex.
 Other fantastic AHBA resources are available including [abagen](https://abagen.readthedocs.io/en/stable/) and [Gregor Gryglewski's atlas](http://www.meduniwien.ac.at/neuroimaging/mRNA.html)
 
-(![Methods for creating vertex-level expression maps](imgs/methods.png))
+![Methods for creating vertex-level expression maps](imgs/methods.png)
 
 
 ## Data and Code
