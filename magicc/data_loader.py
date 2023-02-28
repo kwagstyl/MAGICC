@@ -71,7 +71,7 @@ class MagiccDataset():
         msp.plot_surf(self.surf.darrays[0].data,self.surf.darrays[1].data,
                       self.gene_gradients[gene_index],
                   rotate=[90,270],
-                 cmap='magma',vmin=0,vmax=0.1,base_size=10,
+                 cmap='magma',vmin=0,vmax=0.05,base_size=10,
               mask=~self.cortex_mask,
               mask_colour=np.array([0,0,0,1]),
                   colorbar=True,cmap_label='Expression\ngradient (Z/mm)',
