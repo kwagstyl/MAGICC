@@ -20,16 +20,17 @@ class MagiccDataset():
 
     def download_data(self):
         #check if file exists
-        if not os.path.isdir('magic_expreesion_data'):
-            print('Downloading full dataset. This will take ~ 1 minute')   
+        if not os.path.isdir('magic_expression_data'):
+            print('Downloading full dataset. This will take ~ 1-3 minutes')   
             subprocess.call(f'wget --content-disposition {self.figshare}',shell=True,
                             stdout=subprocess.DEVNULL,
                             stderr=subprocess.STDOUT)
-            
+            print('Unzipping ...')   
             subprocess.call(f'unzip magicc.zip',shell=True)
         return
     
     def load_data(self):
+        print('loading in data')
         self.gene_expression = np.load('magicc_expression_data/ahba_vertex.npy')
         self.surf=nb.load(os.path.join( 'magicc_expression_data',
                                 'fs_LR.32k.L.inflated.surf.gii'))
@@ -70,7 +71,7 @@ class MagiccDataset():
         msp.plot_surf(self.surf.darrays[0].data,self.surf.darrays[1].data,
                       self.gene_gradients[gene_index],
                   rotate=[90,270],
-                 cmap='turbo',vmin=-2,vmax=2,base_size=10,
+                 cmap='turbo',vmin=0,vmax=0.01,base_size=10,
               mask=~self.cortex_mask,
               mask_colour=np.array([0,0,0,1]),
                   colorbar=True,cmap_label='Expression\ngradient (Z/mm)',
