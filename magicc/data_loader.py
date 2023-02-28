@@ -20,7 +20,7 @@ class MagiccDataset():
 
     def download_data(self):
         #check if file exists
-        if not os.path.isdir('magic_expression_data'):
+        if not os.path.isdir('magicc_expression_data'):
             print('Downloading full dataset. This will take ~ 1-3 minutes')   
             subprocess.call(f'wget --content-disposition {self.figshare}',shell=True,
                             stdout=subprocess.DEVNULL,
@@ -71,10 +71,11 @@ class MagiccDataset():
         msp.plot_surf(self.surf.darrays[0].data,self.surf.darrays[1].data,
                       self.gene_gradients[gene_index],
                   rotate=[90,270],
-                 cmap='turbo',vmin=0,vmax=0.01,base_size=10,
+                 cmap='magma',vmin=0,vmax=0.1,base_size=10,
               mask=~self.cortex_mask,
               mask_colour=np.array([0,0,0,1]),
                   colorbar=True,cmap_label='Expression\ngradient (Z/mm)',
-                  title = gene_name+f' expression \n Estimatated reproducibility={gene_reproducibility:.2f}'
+                  title = gene_name+f' gradient\n Estimatated reproducibility={gene_reproducibility:.2f}'
                  )
         return
+    
