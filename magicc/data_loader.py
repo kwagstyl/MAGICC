@@ -9,7 +9,7 @@ import matplotlib_surface_plotting as msp
 class MagiccDataset():
     def __init__(
     self,
-    figshare = 'https://figshare.com/ndownloader/files/39434188?private_link=82c8f6ebda38af670cd1'):
+    figshare = 'https://figshare.com/ndownloader/files/39446125?private_link=82c8f6ebda38af670cd1'):
         """
         """
         self.figshare = figshare
