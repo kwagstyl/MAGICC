@@ -54,7 +54,7 @@ class MagiccDataset():
               mask=~self.cortex_mask,
               mask_colour=np.array([0,0,0,1]),
                   colorbar=True,cmap_label='Z-scored\nexpression',
-                  title = gene_name+f' expression \n Estimatated reproducibility={gene_reproducibility:.2f}'
+                  title = gene_name+f' expression \n Estimated reproducibility={gene_reproducibility:.2f}'
                  )
         return
     
