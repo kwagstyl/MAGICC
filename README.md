@@ -16,7 +16,7 @@ The full vertex-level dataset can be downloaded from [figshare](https://figshare
 To look at a cortical expression map for a gene of interest, you can try [this interactive collaborative notebook](https://colab.research.google.com/github/kwagstyl/MAGICC/blob/main/notebooks/gene2map.ipynb). The interface allows users to plot their expression and gradient.
 
 ## Installation and Usage
-To download and analyse the data on your own computer, take a look at the notebooks capturing example analyses from our paper [..in progress]
+To download and analyse the data on your own computer, take a look at the notebooks capturing example analyses from our paper.
 
 
 ## Citation
