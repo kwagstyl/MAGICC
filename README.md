@@ -22,7 +22,7 @@ To download and analyse the data on your own computer, take a look at the notebo
 ## Citation
 If you use the Multiscale Atlas of Gene Expression for Integrative Cortical Cartography in your research, please cite our paper:
 
-[Transcriptional Cartography Integrates Multiscale Biology of the Human Cortex](https://www.biorxiv.org/content/10.1101/2022.06.13.495984v2)
+[Transcriptional Cartography Integrates Multiscale Biology of the Human Cortex]([https://doi.org/10.7554/eLife.86933.1)]
 
 ## Contact
 If you have any questions or comments about the atlas or this repository, feel free to contact me at k.wagstyl@ucl.ac.uk. We welcome feedback and suggestions for how to improve the project.
