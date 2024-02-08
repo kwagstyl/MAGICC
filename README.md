@@ -10,7 +10,7 @@ Other fantastic AHBA resources are available including [abagen](https://abagen.r
 
 
 ## Data and Code
-The full vertex-level dataset can be downloaded from [figshare](https://figshare.com/ndownloader/files/39446125?private_link=82c8f6ebda38af670cd1). These data include processed gene expression data, as well as cortical surfaces for visualisation. The code includes pipelines for downloading data and visualising results.
+The full vertex-level dataset can be downloaded from [here](https://rdr.ucl.ac.uk/articles/dataset/MAGICC_vertex-level_gene_expression_data/22183891/1). These data include processed gene expression data, as well as cortical surfaces for visualisation. The code includes pipelines for downloading data and visualising results.
 
 ## Interactive Usage
 To look at a cortical expression map for a gene of interest, you can try [this interactive collaborative notebook](https://colab.research.google.com/github/kwagstyl/MAGICC/blob/main/notebooks/gene2map.ipynb). The interface allows users to plot their expression and gradient.
